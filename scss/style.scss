@@ -1,0 +1,9 @@
+@import "config";
+@import "nav";
+@import "hero";
+
+.container {
+    max-width: 1250px;    
+    margin: auto;
+    // border: 1px solid red;
+}

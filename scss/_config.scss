@@ -1,0 +1,19 @@
+// Variables
+$font_project : "Montserrat Alternates", sans-serif;
+$bg-color: #ccc;
+$pr-color: #1c4c96;
+$sc-color: #ab2a3e;
+$tr-color: #ff7722;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
+
+:root {
+  font-size: 16px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
