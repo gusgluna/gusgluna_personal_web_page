@@ -2,19 +2,25 @@
   margin-top: 85px;
   font-family: $font_project;
 
-  & .container {
+  .container {
     text-align: center;
-    border: 1px solid;
-    height: 500px;
+    padding: 2rem;
+    // border: 1px solid;
+    height: 600px;
   }
 
-  & h1 {
+  h1 {
     font-size: 2.8rem;
-    width: 750px;
-    margin: auto;
+    margin: 1rem;
   }
 
-  & p {
+  h2 {
+    font-size: 2rem;
+    color: $pr-color;
+  }
+
+  p {
+    margin: 2rem;
     font-size: 1.5rem;
     color: $pr-color;
   }

@@ -1,9 +1,11 @@
 @import "config";
 @import "nav";
 @import "hero";
+@import "about-me";
+@import "my-work";
+@import "footer";
 
 .container {
     max-width: 1250px;    
     margin: auto;
-    // border: 1px solid red;
 }

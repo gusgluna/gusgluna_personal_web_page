@@ -1,0 +1,25 @@
+.my-work {
+  font-family: $font_project;
+
+  .container {
+    background: #fff;
+    text-align: center;
+    // border: 1px solid;
+    padding: 2rem;
+    height: 500px;
+  }
+
+  h3 {
+    font-size: 2rem;
+    color: $pr-color;
+    width: 750px;
+    margin: auto;
+  }
+
+  p {
+    font-size: 1.3rem;
+    color: #fff;
+    margin: 2rem;
+    // line-height: 1.4rem;
+  }
+}

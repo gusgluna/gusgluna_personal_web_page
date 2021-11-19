@@ -1,5 +1,4 @@
 .header {
-  // margin-top: 10px;
   height: 85px;
   background: #fff;
   position: fixed;
@@ -8,47 +7,56 @@
   padding: 5px 10px;
   padding-top: 10px;
   font-family: $font_project;
-}
+  z-index: 10;
 
-.header .container {
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 2.5rem;
+  .container {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.5rem;
+  }
 }
 
 .nav-menu {
   display: flex;
   flex-direction: row;
+  transition: all linear 1000ms;
   ul {
-    // border: 1px solid black;
     margin-left: auto;
     display: flex;
     flex-direction: row;
     li {
-      margin-left: 10px;
       list-style: none;
-      font-size: 1.3rem;
-      font-weight: 500;
       display: flex;
-      align-items: center;
       justify-content: center;
-      &:last-child {
+      align-items: center;
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+        font-size: 1.3rem;
+        margin-left: 1rem;
+        font-weight: 500;
+        height: 100%;
+        transition: all 150ms ease-in;
+        &:hover {
+          color: $pr-color;
+        }
+      }
+      &:last-child a {
         margin-left: 2rem;
         width: 80px;
-        align-self: center;
         height: 2.3rem;
         background: #fff;
         color: $pr-color;
         border: 2px solid $pr-color;
         border-radius: 10px;
-      }
-      &:last-child:hover {
-        color: #fff;
-        background-color: $pr-color;
-        font-weight: bold;
-      }
-      &:hover {
-        color: $pr-color;
+        &:hover {
+          background-color: $pr-color;
+          color: #fff;
+          font-weight: bold;
+        }
       }
     }
   }
