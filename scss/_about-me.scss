@@ -4,7 +4,6 @@
 
   .container {
     text-align: center;
-    // border: 1px solid;
     padding: 2rem;
     height: 500px;
   }
@@ -16,25 +15,22 @@
     margin: auto;
   }
   .wrapper {
-    // border: 1px solid red;
     display: flex;
     height: 400px;
     padding: 1rem;
+
     p {
+      @extend%center-content;
       flex: 1 1 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
       font-size: 1.5rem;
       color: #fff;
       padding: 1rem;
       line-height: 2rem;
-      // border: 1px solid olivedrab;
     }
+
     .my-skills {
-      display: flex;
+      @extend%center-content;
       justify-content: start;
-      align-items: center;
       flex-direction: column;
       .sub-title1 {
         font-size: 1.7rem;
@@ -56,8 +52,8 @@
       .icon-tools {
         height: 50px;
         width: 50px;
-       margin-top: 0.6rem;
-       margin-bottom: 0.6rem;
+        margin-top: 0.6rem;
+        margin-bottom: 0.6rem;
         background-color: $pr-color;
         -webkit-mask: url(../assets/gear.svg) no-repeat center;
         mask: url(../assets/gear.svg) no-repeat center;
@@ -65,7 +61,7 @@
       font-size: 1.3rem;
       color: $pr-color;
       background-color: #fff;
-      border-radius: 1rem;
+      border-radius: 1.5rem;
       flex: 1 1 0;
       border: 1px solid #fff;
       padding: 1rem;

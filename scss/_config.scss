@@ -6,6 +6,11 @@ $sc-color: #ab2a3e;
 $tr-color: #ff7722;
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
+%center-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 :root {
   font-size: 16px;
