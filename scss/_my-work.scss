@@ -5,6 +5,7 @@
     background: #fff;
     text-align: center;
     padding: 2rem;
+    padding-top: 7rem;
     height: 500px;
     // border: 1px solid;
   }
@@ -58,6 +59,7 @@
       background-size: cover;
       background-position: -18px 0;
       flex-direction: column;
+      order: -1;
     }
   }
 }
