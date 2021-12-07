@@ -86,3 +86,23 @@
     }
   }
 }
+
+
+@media only screen and (max-width: 390px) {
+  .about-me {
+    // h3{
+    //   width: 100%;
+    // }
+    .container{
+      height: 1400px;
+    }
+    p{
+      margin-top: 22rem;
+      font-size: 1rem;
+    }
+    section {
+      flex-direction: column;
+    }
+  }
+}
+
