@@ -6,6 +6,13 @@
 @import "footer";
 
 .container {
-    max-width: 1250px;    
+  max-width: 1250px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 688px) {
+  .container {
+    width: 100%;
     margin: auto;
+  }
 }
