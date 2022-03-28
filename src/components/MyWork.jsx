@@ -6,7 +6,7 @@ const MyWork = () => {
 <section className="w-full pt-24" id="work">
   <div className="container mx-auto text-center text-pr_color p-4">
     <h3 className="text-4xl">My Work</h3>
-    <section className="p-4 flex sm:flex-row flex-col items-center justify-around text-lg">
+    <section className="p-4 flex lg:flex-row flex-col items-center justify-around text-lg">
       <div className="overflow-hidden h-60 w-88 border-solid border-pr_color border-2 rounded-3xl bg-pr_color text-white m-2">
         <p className="flex items-center justify-center h-full w-full">Coming Soon...</p>
       </div>
