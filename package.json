@@ -1,0 +1,55 @@
+{
+  "name": "gusgluna_personal_web_page",
+  "version": "1.0.0",
+  "description": "gusgluna's personal web page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gusgluna/gusgluna_personal_web_page.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "author": "gusgluna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gusgluna/gusgluna_personal_web_page/issues"
+  },
+  "homepage": "https://github.com/gusgluna/gusgluna_personal_web_page#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.7",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "autoprefixer": "^10.4.4",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.7.1",
+    "favicons": "^6.2.2",
+    "favicons-webpack-plugin": "^5.0.2",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "node-sass": "^7.0.1",
+    "postcss": "^8.4.12",
+    "postcss-loader": "^6.2.1",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.0.23",
+    "terser-webpack-plugin": "^5.3.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "flowbite": "^1.4.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

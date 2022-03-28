@@ -1,0 +1,27 @@
+// Variables
+$font_project : "Montserrat Alternates", sans-serif;
+$bg-color: #ccc;
+$pr-color: #1c4c96;
+$sc-color: #ab2a3e;
+$tr-color: #ff7722;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
+
+%center-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+// .container {
+//   // max-width: 1250px;
+//   // margin: auto;
+// }
+
+// @media only screen and (max-width: 688px) {
+//   .container {
+//     width: 100%;
+//     margin: auto;
+//   }
+// }

@@ -1,0 +1,17 @@
+.card {
+  &:hover {
+    p {
+      transform: translateY(0);
+    }
+  }
+
+  p {
+    transition: all linear 0.4s;
+    transform: translateY(250px);
+  }
+}
+.pokedex {
+  background-image: url(@img/pokedex_v2.JPG);
+  background-size: cover;
+  background-position: -58px 0;
+}
