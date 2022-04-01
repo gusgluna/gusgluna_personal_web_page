@@ -10,8 +10,7 @@ const AboutMe = () => {
       <p className="flex items-center justify-center grow shrink basis-0 text-base sm:text-2xl p-4">
         I'm a self taught developer, i started to code by hobby, after three
         years i decided to change my career to tech
-        industry, because i love to code and i wanna be part of the
-        future...
+        industry, because i love to code...
       </p>
       <section className="
       flex items-center justify-start flex-col
