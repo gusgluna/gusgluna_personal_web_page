@@ -8,7 +8,7 @@ import mail_logo from "@logos/mail_me.svg"
 
 const Footer = () => {
   return (
-  <footer className="w-full bg-pr_color text-white text-center text-2xl">
+  <footer className="w-full bg-pr_color text-white text-center text-2xl p-4">
   <div className="container mx-auto">
     <div className="social">
       lets chat!

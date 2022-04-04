@@ -25,7 +25,7 @@ const AboutMe = () => {
         </p>
         <div className="icon-tools bg-pr_color w-8 h-8 sm:w-12 sm:h-12" />
         <span className="text-base sm:text-2xl mb-4"> Tools: </span>
-        <p className="sm:text-xl text-sm">
+        <p className="sm:text-xl text-sm pb-6">
         VSCode, VIM, Github, <br />
         NPM, Linux &amp; Terminal.
         </p>
